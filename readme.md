@@ -6,7 +6,7 @@
 
 ## 测试项
 
-- [ ] spring applicationContext、beanFactory
-  - [ ] applicationContext
-  - [ ] beanFactory
-  - [ ] 发布事件解耦、aop实现
+- [X] spring applicationContext、beanFactory
+  - [X] applicationContext
+  - [X] beanFactory
+  - [X] 发布事件解耦、aop实现

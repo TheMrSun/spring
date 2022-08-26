@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.context.ApplicationContext</OriginalElement>
+  <nodes>
+    <node x="275.0" y="82.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+    <node x="1231.0" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="40.5" y="0.0">org.springframework.core.io.ResourceLoader</node>
+    <node x="460.65" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+    <node x="974.0" y="82.0">org.springframework.core.env.EnvironmentCapable</node>
+    <node x="1204.0" y="82.0">org.springframework.context.ApplicationEventPublisher</node>
+    <node x="0.0" y="82.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+    <node x="660.5" y="174.0">org.springframework.context.ApplicationContext</node>
+    <node x="550.0" y="82.0">org.springframework.beans.factory.ListableBeanFactory</node>
+    <node x="789.0" y="82.0">org.springframework.context.MessageSource</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+      <point x="52.5" y="-16.0" />
+      <point x="818.0" y="144.0" />
+      <point x="1079.0" y="144.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+      <point x="-52.5" y="-16.0" />
+      <point x="713.0" y="144.0" />
+      <point x="402.5" y="144.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="402.5" y="57.0" />
+      <point x="497.4" y="57.0" />
+      <point x="-36.75" y="16.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+      <point x="87.5" y="-16.0" />
+      <point x="853.0" y="154.0" />
+      <point x="1340.5" y="154.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+      <point x="17.5" y="-16.0" />
+      <point x="783.0" y="134.0" />
+      <point x="871.5" y="134.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+      <point x="-17.5" y="-16.0" />
+      <point x="748.0" y="134.0" />
+      <point x="659.5" y="134.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="659.5" y="57.0" />
+      <point x="570.9" y="57.0" />
+      <point x="36.75" y="16.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+      <point x="-87.5" y="-16.0" />
+      <point x="678.0" y="154.0" />
+      <point x="127.5" y="154.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.700066800267201" x="738.5" y="103.0" />
+  <SelectedNodes>
+    <node>org.springframework.core.io.support.ResourcePatternResolver</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
